@@ -46,7 +46,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #555;
+    background-color: #ffffff;
 }
 
 .club-home-page {
@@ -79,130 +79,69 @@ nav a:hover {
     margin-bottom: 20px;
 }
 
-#past-events{
-    background-color: #420c59;
-
+.event-box {
+    background-color: #420c59; /* Background color */
+    padding: 30px 0; /* Add padding */
+    margin-bottom: 40px; /* Add some bottom margin */
+}
+.card {
+    border: none; /* Remove default card border */
+    border-radius: 10px; /* Add border radius */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Add box shadow */
+    transition: all 0.3s ease; /* Add transition */
+}
+.card:hover {
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+    transform: translateY(-5px); /* Move card up on hover */
+}
+.card-img-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.card-body {
     padding: 20px;
-    text-align: center;
-    max-width: 1000px;
-    margin: auto;
+}
+.card-title {
+    color: #420c59; /* Title color */
+    font-weight: bold; /* Bold font */
+    margin-bottom: 10px; /* Add some bottom margin */
+}
+.card-text {
+    color: #666; /* Text color */
 }
 
-#past-events h2{
-    color: white;
-    font-size: 3rem;
-    margin-bottom: 30px;
-}
-
-.event {
-    border: 1px solid #ccc;
-    background-color: #f2f2f2;
-    padding: 10px;
-    margin-bottom: 10px;
-}
-
+/* Custom CSS for gallery */
 #gallery {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #f0f0f0;
-    padding: 20px;
-    box-sizing: border-box;
+    background-color: #420c59; /* Background color for the whole section */
+    padding: 50px 0; /* Add some padding for better spacing */
 }
-  
 .gallery-heading {
-    margin-bottom: 20px;
-    font-size: 24px;
-    color: #333;
+    color: white; /* Text color */
+    text-align: center; /* Center align the heading */
 }
-  
-.gallery-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 100%; 
-}
-  
 .gallery-item {
-    width: 220px;
-    height: 220px;
-    margin: 10px;
-    background-color: #fff;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#copyright{
-    margin-left: 20px;
-}
-.social{
-    background-color: #333; 
-}
-.social ul{
-  display: flex;
-  padding: 0px;
-}
-.social ul li{
-    list-style: none;
-    display: inline-block;
-    margin: 20px;
-}
-.social ul li .fab{
-    font-size: 30px;
-    line-height: 40px;
-    transition: .3s;
-    color: #000;
-}
-.social ul li a{
-    position: relative;
-    display: block;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background-color: white;
+    border: 1px solid white; /* Border color */
+    padding: 20px;
+    margin-bottom: 20px;
     text-align: center;
-    box-shadow: 0 5px 4px rgba(0,0,0,.5);
+}
+/* Adjust spacing between columns */
+.row > div[class^="col-"] {
+    padding: 0 15px;
 }
 
-.social ul li a:hover{
-    transform: translate(0, -10%);
-}
-.social ul li:nth-child(1) a:hover{
-    background-color: #004498;
-}
-.social ul li:nth-child(2) a:hover{
-    background-color: #E4405F;
-}
-.social ul li:nth-child(3) a:hover{
-    background-color: #00d9ff;
-}
-footer {
-    background-color: #333;
-    padding: 10px;
-    color: #fff;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.social {
-    display: flex;
-}
-
-.social ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-.social ul li {
-    margin-right: 10px;
-}
-
-.centered {
-    text-align: center;
-    flex-grow: 1; /* Ensures it takes up remaining space */
-}
+        /* Custom CSS for footer */
+        footer {
+            background-color: #420c59; /* Background color */
+            color: white; /* Text color */
+            padding: 20px 0; /* Add padding */
+        }
+        .social-icons a {
+            color: white; /* Icon color */
+            font-size: 24px; /* Icon size */
+            margin-right: 15px; /* Add right margin for spacing */
+        }
+        .social-icons a:hover {
+            color: #fff; /* Change color on hover */
+            text-decoration: none; /* Remove underline on hover */
+        }
