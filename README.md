@@ -1,28 +1,29 @@
-# CODEWEB Event Website
+# TechWiz Hackathon Project: Event Website
 
 ## Overview
-This is an event website developed using HTML, CSS (Bootstrap 5), and JavaScript. It provides information about past events, showcases event photos in the gallery, and allows users to learn more about the organization.
+This project is the result of a hackathon hosted by TechWiz, where participants were challenged to create an event website using HTML, CSS (Bootstrap 5), and JavaScript. The experience gained during this hackathon greatly enhanced my skills in web development and provided valuable insights into collaborative problem-solving and time management.
 
 ## Navbar
-- The navbar contains navigation links to different sections of the website.
-- It includes a logo visible on smaller screens and larger screens.
+- The navbar design facilitates easy navigation through different sections of the website.
+- It includes a TechWiz logo, reflecting the branding of the organization.
 
 ## Header
-- The header welcomes visitors to the TechWiz Club and invites them to join exciting events and activities.
+- The header section welcomes visitors to the TechWiz Club and encourages them to explore the website to learn more about upcoming events.
 
 ## About Section
-- Provides information about the TechWiz Club, including its inception, goals, and activities.
-- Highlights the club's focus on emerging technologies and knowledge sharing.
+- This section provides an overview of the TechWiz Club, highlighting its inception, mission, and activities.
+- It showcases the club's dedication to fostering knowledge sharing and promoting emerging technologies.
 
 ## Past Events Section
-- Displays information about past events organized by the TechWiz Club.
-- Each event card includes a title, image, and description.
+- The past events section displays information about previous events organized by the TechWiz Club.
+- Each event card includes a title, image, and description, showcasing the diversity of activities hosted by the club.
 
 ## Gallery Section
-- Showcases photos from past events in a visually appealing gallery format.
-- Each gallery item displays an image related to the event.
+- The gallery section presents a collection of photos from past events, offering visitors a visual glimpse into the club's activities.
+- Each gallery item features an image capturing memorable moments from different events.
 
 ## Footer
-- Includes social media icons for Instagram, LinkedIn, and Twitter.
-- Provides copyright and design attribution information.
+- The footer includes social media icons, providing links to the TechWiz Club's profiles on Instagram, LinkedIn, and Twitter.
+- It also includes copyright and design attribution information, acknowledging the contributions of team members to the project.
 
+This hackathon project not only allowed me to apply my technical skills but also provided an opportunity to collaborate with teammates, brainstorm creative ideas, and deliver a functional website within a limited timeframe. Overall, the experience was invaluable and contributed significantly to my growth as a developer.
