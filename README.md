@@ -1,4 +1,4 @@
-# TechWiz Hackathon Project: Event Website
+# TechWiz Hackathon Project: CODEWEB
 
 ## Overview
 This project is the result of a hackathon hosted by TechWiz, where participants were challenged to create an event website using HTML, CSS (Bootstrap 5), and JavaScript. The experience gained during this hackathon greatly enhanced my skills in web development and provided valuable insights into collaborative problem-solving and time management.
