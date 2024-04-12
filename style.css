@@ -77,7 +77,7 @@ body {
     padding: 50px 0; /* Add some padding for better spacing */
 }
 .gallery-heading {
-    color: white; /* Text color */
+    color: rgb(0, 0, 0); /* Text color */
     text-align: center; /* Center align the heading */
 }
 .gallery-item {
